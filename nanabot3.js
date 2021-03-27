@@ -39,7 +39,7 @@ function handleEvent(event) {
   console.log('受けたメッセージ：',message_1)
 
   switch (message_1){
-    case 'ナナ朝ごはん食べた？':
+    case 'ナナごはん食べた？':
       var text = 'まだ～'
       const echo1 = { type: 'text', text: text};
       console.log(echo1);
